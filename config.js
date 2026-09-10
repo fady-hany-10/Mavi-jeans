@@ -1,32 +1,31 @@
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>White for woman</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <div class="card">
-        <div class="logo-container">
-            <img id="logo" src="logo.png" alt="White for woman Logo">
-        </div>
-
-        <h1 id="title" class="title">White for woman</h1>
-        <p id="subtitle" class="subtitle">👋 Welcome to my page</p>
-
-        <div id="links-container" class="links-container">
-            <!-- سيتم تحميل الأزرار ديناميكياً من config.js -->
-        </div>
-
-        <div class="footer">
-            Powered by Vodoo
-        </div>
-    </div>
-
-    <script src="config.js"></script>
-    <script src="script.js"></script>
-</body>
-</html>
+const config = {
+    title: "Mavi Jeans",
+    subtitle: "Social Media",
+    logo: "logo.png",
+    links: [
+        {
+            name: "Facebook",
+            url: "https://www.facebook.com/share/18Muzd6vkP/?mibextid=wwXIfr",
+            icon: "fa-brands fa-facebook-f",
+            class: "btn-facebook"
+        },
+        {
+            name: "Instagram",
+            url: "https://www.instagram.com/mavi_jeans1?stkn=aWd5d2g4cmRubm5x",
+            icon: "fa-brands fa-instagram",
+            class: "btn-instagram"
+        },
+        {
+            name: "TikTok",
+            url: "https://www.tiktok.com/@shadad.mohamed5?_r=1&_t=ZS-99cgPPZzkGH",
+            icon: "fa-brands fa-tiktok",
+            class: "btn-tiktok"
+        },
+        {
+            name: "InstaPay",
+            url: "https://ipn.eg/S/moshadad2000/instapay/6P6746",
+            icon: "fa-solid fa-wallet",
+            class: "btn-instapay"
+        }
+    ]
+};
