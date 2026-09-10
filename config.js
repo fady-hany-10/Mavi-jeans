@@ -1,7 +1,7 @@
 const config = {
     title: "Mavi Jeans",
     subtitle: "Social Media",
-    logo: "logo.png",
+    logo: "logo (2).png",
     links: [
         {
             name: "Facebook",
